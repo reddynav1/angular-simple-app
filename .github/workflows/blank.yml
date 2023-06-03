@@ -10,7 +10,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: install dependencies
-      run: npm install
+      run: npm install --force
     - name: Build project
       run: ng build --prod
    
