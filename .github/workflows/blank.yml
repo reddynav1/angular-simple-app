@@ -11,5 +11,5 @@ jobs:
       uses: actions/checkout@v2
       
     - name: Deploy to Production
-      environment: POC-testing
+      env: POC-testing
       run: ng build --prod
